@@ -1,14 +1,14 @@
-let a = "oi"
-let b = "olá"
+let a = 'oi'
+let b = 'olá'
 
-Deno.test("Teste do oi (NO API)", ()=> {
+Deno.test("teste do oi (no api)", () =>{
     if(a != "oi"){
-        throw new Error('${a} não é oi');
+        throw new Error(`${a} não é oi`);
     }
-})
+} ) 
 
-Deno.test("Não pode ser oi (NO API)", () => {
+Deno.test("Não pode ser oi (no api)", () =>{
     if(b == "oi"){
-        throw new Error('${a} é oi');
+        throw new Error(`${a}  é oi`)
     }
-})
+} ) 
