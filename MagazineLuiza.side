@@ -1,0 +1,250 @@
+{
+  "id": "2e5d5a9a-a98e-42dc-a4a4-bf8821608d87",
+  "version": "2.0",
+  "name": "MagazineLuiza",
+  "url": "https://www.magazineluiza.com.br",
+  "tests": [{
+    "id": "9e81497f-3cbc-4886-98d2-38274366e686",
+    "name": "1- Arcondicionado",
+    "commands": [{
+      "id": "69227539-8ff2-4491-bf08-52ab0e7cef11",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ced8560-5182-41b3-bb46-9e83ca5af448",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6272e57f-1fce-4a35-85c7-a330e61ec091",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-search",
+      "targets": [
+        ["id=input-search", "id"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5062f5b-90cc-4830-b131-5308c65e3fa4",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-search",
+      "targets": [
+        ["id=input-search", "id"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ar-condicionado"
+    }, {
+      "id": "750c981a-5f1d-4b46-8303-949c7da7f73c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=input-search",
+      "targets": [
+        ["id=input-search", "id"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7f6d3eb3-25a3-40de-9c2c-bf1428348042",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-APcvf:nth-child(1) .sc-cWSHoV",
+      "targets": [
+        ["css=.sc-APcvf:nth-child(1) .sc-cWSHoV", "css:finder"],
+        ["xpath=//img[@alt='Ar Condicionado Split Cassete 1 Via Inverter LG 18000 BTUs Quente/Frio 220V ATUW18GTLP1.AWGZBRZ']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div/main/section[4]/div[3]/div/ul/li/a/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "20ecf439-7108-4ff4-ab69-ef5834cbbe16",
+    "name": "2- Microondas",
+    "commands": [{
+      "id": "c476c50b-5294-4096-ab63-498c9addc660",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57c2daa3-8c04-40a5-97a6-a47a0385db15",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f528c80-d6f6-4e21-be20-7a9d7feeaf2e",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-search",
+      "targets": [
+        ["id=input-search", "id"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c67efa5d-6ea4-4dd7-a679-f1189088545c",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-search",
+      "targets": [
+        ["id=input-search", "id"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Microondas"
+    }, {
+      "id": "169aa514-5433-4d90-81c3-ebe7d6c7fece",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=input-search",
+      "targets": [
+        ["id=input-search", "id"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e82fbbed-3d13-460c-b601-50284e252c0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-APcvf:nth-child(2) .sc-ijtseF > .sc-cWSHoV",
+      "targets": [
+        ["css=.sc-APcvf:nth-child(2) .sc-ijtseF > .sc-cWSHoV", "css:finder"],
+        ["xpath=//img[@alt='Micro-ondas Electrolux 23L Branco']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div/main/section[4]/div[3]/div/ul/li[2]/a/div[2]/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3a6a4210-b9e5-419c-b67b-e2fe2ffd28e9",
+    "name": "3- Brinquedos",
+    "commands": [{
+      "id": "e0cfb99e-351b-4fcd-9f2a-ec98af89a97d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "917d8857-689a-48fa-87fd-53e43862111f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7030f84b-fafb-444b-b09c-e75121dbe574",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ofertas do Dia",
+      "targets": [
+        ["linkText=Ofertas do Dia", "linkText"],
+        ["css=.fklIiZ .sc-uVWWZ", "css:finder"],
+        ["xpath=//a[contains(text(),'Ofertas do Dia')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/main/section/div[2]/header/div/div[3]/nav/ul/li[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.magazineluiza.com.br/selecao/ofertasdodia/')]", "xpath:href"],
+        ["xpath=//li[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ofertas do Dia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0a73732-ec04-4f85-9e6c-d08208f9221f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Brinquedos",
+      "targets": [
+        ["linkText=Brinquedos", "linkText"],
+        ["css=.sc-knuQbY:nth-child(1) > .sc-dhKdcB", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/section[3]/div[2]/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/selecao/ofertasdodia/?filters=category---BR')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83802e64-a267-404e-84f2-9931df04386b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Brinquedos",
+      "targets": [
+        ["linkText=Brinquedos", "linkText"],
+        ["css=.sc-knuQbY:nth-child(1) > .sc-dhKdcB", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/section[3]/div[2]/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/selecao/ofertasdodia/?filters=category---BR')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cec5178-7563-407d-93b0-b4d2ddde0063",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-knuQbY:nth-child(1) .sc-kpDqfm",
+      "targets": [
+        ["css=.sc-knuQbY:nth-child(1) .sc-kpDqfm", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/section[3]/div[2]/div/div[2]/ul/li/a/p", "xpath:idRelative"],
+        ["xpath=//a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Brinquedos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81d0788b-389f-4064-8103-831cfa294035",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-knuQbY:nth-child(1) .sc-kpDqfm",
+      "targets": [
+        ["css=.sc-knuQbY:nth-child(1) .sc-kpDqfm", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/section[3]/div[2]/div/div[2]/ul/li/a/p", "xpath:idRelative"],
+        ["xpath=//a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Brinquedos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71b91f3a-5085-4e4f-acf8-40fefdf1a433",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-knuQbY:nth-child(1) .sc-kpDqfm",
+      "targets": [
+        ["css=.sc-knuQbY:nth-child(1) .sc-kpDqfm", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/section[3]/div[2]/div/div[2]/ul/li/a/p", "xpath:idRelative"],
+        ["xpath=//a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Brinquedos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f1e374cc-21df-4c20-a8ee-0e6988cf8f53",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9e81497f-3cbc-4886-98d2-38274366e686"]
+  }],
+  "urls": ["https://www.magazineluiza.com.br/"],
+  "plugins": []
+}
